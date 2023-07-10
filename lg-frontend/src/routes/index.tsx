@@ -6,7 +6,7 @@ export function AppRoutes() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<ListGames />} />
+        <Route path="/legend-games" element={<ListGames />} />
       </Routes>
     </BrowserRouter>
   );
